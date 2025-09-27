@@ -1,11 +1,10 @@
-package com.android.sideeffect.sideEffects
+package com.android.sideeffect.sideEffects.produceState
 
 import androidx.compose.material3.Button
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
 import androidx.compose.runtime.produceState
-import androidx.compose.runtime.remember
 import kotlinx.coroutines.delay
 
 //produceState is used to convert non-compose state to compose state.
