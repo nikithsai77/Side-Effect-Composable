@@ -1,4 +1,4 @@
-package com.android.sideeffect.sideEffects
+package com.android.sideeffect.sideEffects.derivedState
 
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.layout.Box

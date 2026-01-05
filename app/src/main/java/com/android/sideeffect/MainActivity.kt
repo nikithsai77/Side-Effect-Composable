@@ -11,6 +11,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import com.android.sideeffect.sideEffects.M_LaunchedEffect
 import com.android.sideeffect.ui.theme.SideEffectTheme
+import com.android.sideeffect.sideEffects.derivedState.DerivedVsRemember
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,7 +22,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    M_LaunchedEffect()
+                    DerivedVsRemember()
                 }
             }
         }
